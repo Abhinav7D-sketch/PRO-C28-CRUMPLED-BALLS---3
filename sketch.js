@@ -24,11 +24,6 @@ function setup() {
 
    paper1 = new Paper(150, 500, 10);   
 
- //dustbin  
-   dustbinRight = new Dustbin(700, 540, 10, 150);
-   dustbinMiddle = new Dustbin(750, 600, 100, 10);
-   dustbinLeft = new Dustbin(800, 540, 10, 150);
-
  //ground
    ground = new Ground(600, height-35, 1200, 15); 
 
@@ -44,10 +39,6 @@ function draw() {
   rectMode(CENTER);
   background(200);
 
-//displaying
-  dustbinRight.display();
-  dustbinMiddle.display();
-  dustbinLeft.display();
 
   paper1.display();
   
